@@ -1,0 +1,16 @@
+Question - I'd like to learn more about your views on testing software:
+Why do we test our software as engineers
+What best practices are there for testing software
+Where you have applied those best practices
+
+•	Testing code makes is more reliable.
+•	Reduces the risk of bad code.
+•	Saves time and money i.e sorting out bugs later on.
+•	Provides higher standard of code.
+•	Including testing makes you a more well-rounded engineer.
+
+•	Unit testing.
+•	Writing tests first before main code.
+•	Using programs like Jest, Cypress, Enzyme.
+
+•	Morse code project where the test where written first to determine only one outcome from translating.
