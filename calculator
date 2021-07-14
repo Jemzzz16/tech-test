@@ -1,0 +1,29 @@
+class Calculator {
+  constructor(sum) {
+    this.sum = sum;
+  }
+}
+
+// An empty string returns zero 
+test (' " " equals 0', () => {
+  const sum = calculatorSum(" ");
+  expect(sum.value).toBe(0)
+});
+
+// A single number returns the value 
+test ('any number plus any number', () => {
+  const sum = calculatorSum(2 + 2);
+  expect(sum.value).toBe(4)
+});
+// Two numbers, comma delimited, returns the sum 
+
+// Two numbers, newline delimited, returns the sum 
+
+// Three numbers, delimited either way, returns the sum 
+
+// Negative numbers throw an exception 
+test ('Negative number should return an exception', () => {
+  const sum = calculatorSum(-10);
+  expect(sum).toThrow(Error);
+});
+// Numbers greater than 1000 are ignored 
